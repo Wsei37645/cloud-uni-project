@@ -1,0 +1,53 @@
+.content{
+    width: 90%;
+    margin: auto;
+    margin-top:20px;
+}
+.section{
+    margin-bottom: 20px;
+}
+
+.product_type{
+    background-color: #700202;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px
+}
+.product_type:nth-of-type(1){
+    background-color: #910303;
+}
+.content li{
+    margin-top: 5px;
+    padding: 20px;
+    
+}
+ol {
+    counter-reset: item;
+    list-style-type: none;
+}
+
+
+ol li span:nth-of-type(odd):before {
+    content: '' counter(item, decimal) '. ';
+    counter-increment: item;
+}
+.content ol li:nth-of-type(even){
+    background-color: #f5f5f5;
+    color: black
+}
+.content ol li:nth-of-type(odd){
+    background-color: #808080;
+    color: white
+}
+
+li span:nth-of-type(even){
+    float: right;
+}
+
+li p:nth-of-type(odd){
+    border-bottom: 1px solid ;
+}
+li p:nth-of-type(even){
+    margin-top: 5px;
+}

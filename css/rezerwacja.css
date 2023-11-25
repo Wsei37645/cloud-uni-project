@@ -15,12 +15,13 @@ form{
 .okno{
     width: 100%;
 }
-input, select{
+form input, form select{
     padding: 12px;
     margin-top: 6px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
 }
+
 form > input{
     color: white;
     font-family: inherit;

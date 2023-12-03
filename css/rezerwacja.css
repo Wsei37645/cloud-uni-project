@@ -22,7 +22,7 @@ form input, form select{
     border: 1px solid #ccc;
 }
 
-form > input{
+.button{
     color: white;
     font-family: inherit;
     background-color: #910303;

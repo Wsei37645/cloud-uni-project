@@ -22,16 +22,20 @@ form input, form select{
     border: 1px solid #ccc;
 }
 
-.button{
+form button{
     color: white;
     font-family: inherit;
     background-color: #910303;
+    border: none;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
     cursor: pointer;
-    margin-left: 5px;
-    margin-right: 5px;
+    
+    
 }
-
-.button:hover{
+form button:hover{
     background-color: #7a0202;
     transition: 0.2s;
 }

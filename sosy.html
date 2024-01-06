@@ -23,16 +23,22 @@
                 );
             }
         </script>
+        
         <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+        
     </head>
     
     <body>
         <header>
-            <img src="logo.png"><a href="index.html"><p>Pizzeria "Po studencku"&nbsp;</p></a>
+            <img id="logo" src="logo.png">
+            <a href="index.html"><p>Pizzeria "Po studencku"&nbsp;</p></a>
+            <div id="google_translate_element"></div>
         </header>
         
         
         <main>
+            <li onclick="responsive()" id="responsive">&#9776;</li>
             <menu>
                 <ul id="menu">
                     <li><a href="menu.html"><i class="fa-solid fa-book"></i>&nbsp;&nbsp;Menu</a>
@@ -47,8 +53,11 @@
                     <li><a href="kontakt.html"><i class="fas fa-phone"></i>&nbsp;&nbsp;Kontakt</a></li>
                     
                     <li><a href="rezerwacja.html"><i class="fa-solid fa-book-open"></i>&nbsp;&nbsp;Rezerwacja stolika</a></li>
+                    
+                    
                 </ul>
-                <div id="google_translate_element"></div>
+                
+                
             </menu>
             
             <div class="content">
@@ -90,5 +99,4 @@
             <p>Stronę przygotował: Mateusz Cieryt<br>Nr albumu: 37645</p>
         </footer>
     </body>
-
 </html>

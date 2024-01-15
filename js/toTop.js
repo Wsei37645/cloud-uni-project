@@ -16,7 +16,7 @@ var myVar;
 
 function loader() {
     document.getElementsByTagName("body")[0].style.backgroundImage = "none";
-    myVar = setTimeout(showPage, 3000);
+    myVar = setTimeout(showPage, 2000);
 }
 
 function showPage() {

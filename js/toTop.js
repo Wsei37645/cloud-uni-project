@@ -11,3 +11,16 @@ function responsive(){
     }
                 
 }
+
+var myVar;
+
+function loader() {
+    document.getElementsByTagName("body")[0].style.backgroundImage = "none";
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("insides").style.display = "block";
+    document.getElementsByTagName("body")[0].style.backgroundImage = "url('../background.jpg')";
+}

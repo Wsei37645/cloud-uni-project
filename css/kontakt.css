@@ -13,14 +13,14 @@ menu{
     text-align: center;
     width: 49%;
     margin-right: 2%;
-    box-shadow: 10px 10px 10px RGBA(200, 200, 200, 0.3);
+    box-shadow: 7px 7px 10px RGBA(200, 200, 200, 0.5);
 }
 
 #mapa{
     width: 49%;
 }
 iframe{
-    box-shadow: 10px 10px 10px RGBA(200, 200, 200, 0.3);
+    box-shadow: 7px 7px 10px RGBA(200, 200, 200, 0.5);
 }
 #info, #mapa{
     display: table-cell;

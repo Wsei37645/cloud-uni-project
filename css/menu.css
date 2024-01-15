@@ -20,7 +20,9 @@
 .content li{
     margin-top: 5px;
     padding: 20px;
-    
+    --mask: radial-gradient(10px at 10px 10px,#0000 98%,#000) -10px -10px;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
 }
 ol {
     counter-reset: item;

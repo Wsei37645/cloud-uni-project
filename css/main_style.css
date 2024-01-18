@@ -90,6 +90,10 @@ menu{
     padding: 0;
     
 }
+#google_translate_element{
+    top: 110px;
+    left: 10px;
+}
 .goog-te-combo {
     width: 200px;
     max-height: 20px;

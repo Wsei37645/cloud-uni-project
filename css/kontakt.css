@@ -1,6 +1,4 @@
-menu{
-    margin-bottom: 2%;
-}
+
 .content{
     width: 90%;
     margin: auto;
@@ -23,6 +21,7 @@ iframe{
     box-shadow: 7px 7px 10px RGBA(200, 200, 200, 0.5);
 }
 #info, #mapa{
+    margin-top: 2%;
     display: table-cell;
     float: left;
 
